@@ -1,0 +1,13 @@
+.weatherContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  width: 15rem;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 5px;
+  background-color: rgba(137, 43, 226, 0.725);
+}

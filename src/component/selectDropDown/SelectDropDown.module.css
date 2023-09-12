@@ -1,0 +1,10 @@
+.main_dropdown {
+  position: relative;
+  width: 18rem;
+  font-family: Arial, sans-serif;
+}
+
+.dropdownContainer {
+  display: flex;
+  flex-direction: column;
+}

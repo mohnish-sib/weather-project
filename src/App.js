@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import useWeatherData from "./api/hook";
+import "./App.css";
+import SelectDropdown from "./component/selectDropDown/SelectDropDown";
+import WeatherComponent from "./component/weatherComponent/WeatherComponent";
 
 function App() {
+  const [selectCity, setSelectCity] = useState({
+    id: 3038789,
+    nm: "Abbeville",
+    lat: 50.099998,
+    lon: 1.83333,
+  });
+
+  const { isLoading, weatherData, forcastData } = useWeatherData(
+    selectCity?.lat,
+    selectCity?.lon
+  );
+
+  console.log("##", isLoading, "|", weatherData, forcastData);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mainContainer">
+      <SelectDropdown setSelectCity={setSelectCity} />
+      <WeatherComponent weatherData={weatherData} isLoading={isLoading} />
     </div>
   );
 }
