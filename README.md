@@ -6,11 +6,11 @@ I have divided the app into two components: SelectDropdown and WeatherComponent.
 
 ### How to run this project
 
-To start project: `npm start`
-Then the project will be live on: [http://localhost:3000/weather-project](http://localhost:3000/weather-project)
-To check coverage: `npm run test -- --coverage .`
-To push the code live on github pages: `npm deploy`
-To view the live project: [https://mohnish-sib.github.io/weather-project/](https://mohnish-sib.github.io/weather-project/)
+##### To start project: `npm start`
+##### Then the project will be live on: [http://localhost:3000/weather-project](http://localhost:3000/weather-project)
+##### To check coverage: `npm run test -- --coverage .`
+##### To push the code live on github pages: `npm deploy`
+##### To view the live project: [https://mohnish-sib.github.io/weather-project/](https://mohnish-sib.github.io/weather-project/)
 
 ### Why you choose this particular approach to solve this problem
 
