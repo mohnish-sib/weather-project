@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   width: 95%;
-  padding: 3px 5px;
+  padding: 5px;
   background-color: rgb(80 38 120 / 68%);
   font-size: large;
 }
@@ -19,7 +19,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  padding: 3px 5px;
+  padding: 5px;
   background-color: rgb(80 38 120 / 68%);
   width: 95%;
   justify-content: center;

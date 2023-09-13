@@ -24,7 +24,7 @@ const WeatherComponent = (props) => {
 
   return (
     <div className={style.weatherContainer}>
-      <div className={style.heading}>{weatherData?.name}</div>
+      <div className={style.heading}>{weatherData?.name?.toUpperCase()}</div>
       <div
         className={`wi ${iconClassname(weatherData?.weather)} ${
           style.weatherIcon
