@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import useWeatherData from "./api/hook";
+import { useForcastData, useWeatherData } from "./api/hook";
 import "./App.css";
 import SelectDropdown from "./component/selectDropDown/SelectDropDown";
 import WeatherComponent from "./component/weatherComponent/WeatherComponent";
@@ -12,17 +12,24 @@ function App() {
     lon: 1.83333,
   });
 
-  const { isLoading, weatherData, forcastData } = useWeatherData(
+  const { isWeatherLoading, weatherData } = useWeatherData(
     selectCity?.lat,
     selectCity?.lon
   );
 
-  console.log("##", isLoading, "|", weatherData, forcastData);
+  const { isForcastLoading, forcastData } = useForcastData(
+    selectCity?.lat,
+    selectCity?.lon
+  );
 
   return (
     <div className="mainContainer">
       <SelectDropdown setSelectCity={setSelectCity} />
-      <WeatherComponent weatherData={weatherData} isLoading={isLoading} />
+      <WeatherComponent
+        weatherData={weatherData}
+        forcastData={forcastData}
+        isLoading={isWeatherLoading || isForcastLoading}
+      />
     </div>
   );
 }

@@ -17,20 +17,26 @@ const SelectDropdown = (props) => {
   };
 
   return (
-    <div className={style.main_dropdown}>
-      <div className={style.dropdownContainer}>
-        <label htmlFor="city-select">Choose a city:</label>
+    <div className={style.dropdownContainer}>
+      <label htmlFor="city-select" className={style.label}>
+        Choose a city:
+      </label>
 
-        <select name="city" id="city-select" onChange={onCitySelect}>
-          {cities?.map((city) => {
-            return (
-              <option key={city.id} value={city.id}>
-                {city.nm}
-              </option>
-            );
-          })}
-        </select>
-      </div>
+      <select
+        name="city"
+        id="city-select"
+        onChange={onCitySelect}
+        className={style.dropdown}
+        data-testid="city-select"
+      >
+        {cities?.map((city) => {
+          return (
+            <option key={city.id} value={city.id}>
+              {city.nm}
+            </option>
+          );
+        })}
+      </select>
     </div>
   );
 };

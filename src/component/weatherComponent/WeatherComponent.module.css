@@ -1,13 +1,57 @@
 .weatherContainer {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
-  width: 15rem;
+  margin-top: 1.5rem;
+  width: 38%;
+  align-items: center;
+  justify-content: center;
 }
 .heading {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  width: 95%;
   padding: 3px 5px;
-  background-color: rgba(137, 43, 226, 0.725);
+  background-color: rgb(80 38 120 / 68%);
+  font-size: large;
+}
+.weekRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 3px 5px;
+  background-color: rgb(80 38 120 / 68%);
+  width: 95%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.weatherIcon {
+  color: white;
+  font-size: 3.5rem;
+  margin-top: 1rem;
+}
+.currectTemp {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.tableElement {
+  font-size: 1.5rem;
+}
+.rowClass {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  min-width: 95%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.loaderClass {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
 }
