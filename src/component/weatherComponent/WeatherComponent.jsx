@@ -15,7 +15,7 @@ const WeatherComponent = (props) => {
 
   if (isLoading) {
     return (
-      <div className={style.loader}>
+      <div className={style.loaderClass}>
         <span class="loader"></span>
         <div>Loading...</div>
       </div>
