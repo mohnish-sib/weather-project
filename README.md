@@ -20,4 +20,4 @@ Code Coverage:
 ![code Coverage](coverage.png)
 
 Lighthouse
-![lighthouse](clighthouse.png)
+![lighthouse](lighthouse.png)
