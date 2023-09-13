@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3946d41c.css",
-    "main.js": "/static/js/main.1ab20739.js",
-    "static/js/787.d9312eb8.chunk.js": "/static/js/787.d9312eb8.chunk.js",
-    "static/media/weathericons-regular-webfont.svg": "/static/media/weathericons-regular-webfont.3726e04a389324097351.svg",
-    "static/media/weathericons-regular-webfont.ttf": "/static/media/weathericons-regular-webfont.520c26b13fefaeef5c94.ttf",
-    "static/media/weathericons-regular-webfont.woff": "/static/media/weathericons-regular-webfont.e4d2c00ed56824803ce0.woff",
-    "static/media/weathericons-regular-webfont.eot": "/static/media/weathericons-regular-webfont.db8e6bec2adb2a3e2779.eot",
-    "index.html": "/index.html",
-    "main.3946d41c.css.map": "/static/css/main.3946d41c.css.map",
-    "main.1ab20739.js.map": "/static/js/main.1ab20739.js.map",
-    "787.d9312eb8.chunk.js.map": "/static/js/787.d9312eb8.chunk.js.map"
+    "main.css": "/weather-project/static/css/main.5eb02d86.css",
+    "main.js": "/weather-project/static/js/main.f26801b6.js",
+    "static/js/787.d9312eb8.chunk.js": "/weather-project/static/js/787.d9312eb8.chunk.js",
+    "static/media/weathericons-regular-webfont.svg": "/weather-project/static/media/weathericons-regular-webfont.3726e04a389324097351.svg",
+    "static/media/weathericons-regular-webfont.ttf": "/weather-project/static/media/weathericons-regular-webfont.520c26b13fefaeef5c94.ttf",
+    "static/media/weathericons-regular-webfont.woff": "/weather-project/static/media/weathericons-regular-webfont.e4d2c00ed56824803ce0.woff",
+    "static/media/weathericons-regular-webfont.eot": "/weather-project/static/media/weathericons-regular-webfont.db8e6bec2adb2a3e2779.eot",
+    "index.html": "/weather-project/index.html",
+    "main.5eb02d86.css.map": "/weather-project/static/css/main.5eb02d86.css.map",
+    "main.f26801b6.js.map": "/weather-project/static/js/main.f26801b6.js.map",
+    "787.d9312eb8.chunk.js.map": "/weather-project/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3946d41c.css",
-    "static/js/main.1ab20739.js"
+    "static/css/main.5eb02d86.css",
+    "static/js/main.f26801b6.js"
   ]
 }
